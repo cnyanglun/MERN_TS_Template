@@ -28,3 +28,19 @@ Rewriten based on frame ```npx create-mern-app my-app```, support ts, download a
 
 ## Note
 Some packages are outdated, update they as needed
+
+
+## Structure
+```
+.
+├── client
+│   ├── public
+│   │   └── index.html
+│   └── src
+│       └── index.tsx
+├── server
+│   └── server.ts
+├── package.json
+├── tsconfig.json
+└── webpack.config.js
+```
