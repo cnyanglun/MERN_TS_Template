@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "ES6",
+      "module": "commonjs",
+      "jsx": "react",
+      "outDir": "./dist",
+      "rootDir": ".",
+    //   "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true
+    },
+    "include": ["server/**/*", "client/src/**/*"],
+    "exclude": ["node_modules"]
+  }
+  
